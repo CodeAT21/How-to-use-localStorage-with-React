@@ -1,7 +1,7 @@
 
 ### Demo
 
-<a href="https://youtu.be/EdkBNqHxw5Y" rel="nofollow"> Live Demo </a>
+<a href="https://youtu.be/FWt6TT0Zn8g" rel="nofollow"> Live Demo </a>
 
 ### Website
-<a href="https://codeat21.com/react-navbar-dropdown-menu-responsive-codeat21-com/" rel="nofollow"> Website </a>
+<a href="https://codeat21.com/how-to-use-localstorage-with-react/" rel="nofollow"> Website </a>
