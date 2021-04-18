@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  
+  body {
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  *, :after, :before {
+      box-sizing: border-box;
+  }
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media(min-width:1280px){
+  .container{
+    width: 1200px;
+  }
+  }
+  
+  
+  .Section__one {
+      position: relative;
+      width: 100%;
+      float: left;
+      padding: 67px 0px 67px 0px;
+  }
+  .local__storage {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+      margin: 0 auto;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      border: 1px solid #ffffff;
+      padding: 50px 30px;
+      webkit-box-shadow: 0 20px 40px 0 rgba(28,30,35,0.2);
+      -moz-box-shadow: 0 20px 40px 0 rgba(28,30,35,0.2);
+      box-shadow: 0 20px 40px 0 rgb(28 30 35 / 20%);
+      webkit-transition: all 0.5s ease-in-out 0s;
+      -moz-transition: all 0.5s ease-in-out 0s;
+      -ms-transition: all 0.5s ease-in-out 0s;
+      -o-transition: all 0.5s ease-in-out 0s;
+      transition: all 0.5s ease-in-out 0s;
+
+  }
+  .post {
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    margin-bottom: 17px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #ffe1ea;
+}
+  .post h3{
+  font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      letter-spacing: 0.7px;
+      color: black;
+  }
+  .post p{
+  margin-bottom: 7px;
+      font-size: 16px;
+      color: #444040;
+      letter-spacing: 0.7px;
+  }
+  h3, p{
+      font-family: "Rubik", sans-serif;
+  }
+  input, textarea {
+    margin-bottom: 27px;
+    background: #ffffff;
+    padding: 17px;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+}
+  button[type=submit] {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    font-weight: 400;
+    background: #f56692;
+    text-decoration: none;
+    border: 1px solid #ff4a82;
+    border-radius: 0;
+    vertical-align: top;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 17px;
+  }
+  label {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+  }
+  .close__buttons button{
+  width: 27px;
+      height: 27px;
+      background-color: white;
+      border-radius: 100%;
+      float: left;
+      cursor: pointer;
+  }
